@@ -77,7 +77,6 @@ body{
     margin-bottom:0;
     margin-right:0;
     padding-right:0;
-    float: right;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
