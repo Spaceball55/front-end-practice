@@ -18,9 +18,8 @@ body{
     margin-top:0;
     padding-top:0;
     height:0;
-    padding-bottom:1em;
-    margin-bottom:1em;
-
+    padding-bottom:5em;
+    margin-bottom:5em;
 }
 
 .container #title{
@@ -32,7 +31,7 @@ body{
     font-weight: 700;
 }
 
-.container strong{
+.purple{
     text-decoration:none;
     color: hsl(277, 64%, 61%);
 }
@@ -41,22 +40,24 @@ body{
     color:hsla(0, 0%, 100%, 0.75);
     font-size: 16px;
     line-height: 1.5em;
-    margin-bottom:3em;
+    margin-bottom:110px;
     font-family: 'Lexend Daca', sans-serif;
     font-weight: 400;
 }
 
 .container #stats li{
     list-style:none;
-    margin-right:20px;
+    margin-right:40px;
     display:inline-block;
     font-family: 'Lexend Daca', sans-serif;
     font-weight: 100;
+    margin-bottom:2em;
+    line-height: 2em;
 }
 
 .container #stats ul{
-    padding:0;
     list-style-type: none;
+    padding-left:0;
 }
 
 .container #stats strong{
@@ -64,8 +65,9 @@ body{
     color: hsla(0, 0%, 100%, 0.6);
 }
 
-.container #stats em{
+.container #stats .num{
     text-decoration: none;
+    text-emphasis:none;
     font-size: 25px;
     font-weight: 700;
 }
