@@ -1,0 +1,23 @@
+.container{
+    margin-top:10%;
+    margin-bottom:10%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.column{
+    float:left;
+    width:33.33%;
+    box-sizing: border-box;
+    border: 1px solid black; /*The border here is mainly for my own reference, I may delete later*/
+    padding-left:1em;
+    padding-bottom:1em;
+}
+.row::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
