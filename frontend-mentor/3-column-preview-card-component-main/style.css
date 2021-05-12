@@ -1,23 +1,60 @@
 .container{
     margin-top:10%;
-    margin-bottom:10%;
-    margin-left:15%;
-    margin-right:15%;
+    margin-left:25%;
+    margin-right:25%;
+    
 }
 
 .column{
     float:left;
     width:33.33%;
+    height:500px;
     box-sizing: border-box;
-    border: 1px solid black; /*The border here is mainly for my own reference, I may delete later*/
-    padding-left:1em;
+    padding-left:5%;
+    padding-top:5%;
     padding-bottom:1em;
 }
+
+.row{
+    box-sizing:content-box;
+    
+}
+
 .row::after{
     content:'';
     display:table;
     clear:both;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+#sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0px 0px 15px;
+}
+
+#suv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 15px 15px 0px;
+}
+
+.column h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight:700;
+    font-size: 42px;
+}
+
+.column p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom:25%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size:15px;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top:2em;}
+
 .attribution a { color: hsl(228, 45%, 44%); }

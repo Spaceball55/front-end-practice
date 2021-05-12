@@ -7,17 +7,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel='stylesheet' href="style.css">
   <title>Frontend Mentor | 3-column preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    
-  </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class='container'>
     <div class='row'>
-      <div class='column'>
-        <h1>Sedans</h1><br>
+      <div class='column' id='sedan'>
+        <img src='./images/icon-sedans.svg' alt='Sedan Cars'>
+        
+        <h1>Sedans</h1>
 
         <p>Choose a sedan for its<br> 
            affordability and excellent<br>
@@ -27,16 +26,18 @@
 
         <button type='button'>Learn More</button>
       </div>
-      <div class='column'>
-        <h1>SUVs</h1><br>
+      <div class='column' id='suv'>
+        <img src='./images/icon-suvs.svg' alt='SUV Cars'>
+        <h1>SUVs</h1>
 
         <p>Take an SUV for its spacious<br> interior, power, and<br> versatility. Perfect for your<br> next family vacation 
         and<br> off-road adventures.</p>
         
       <button type='button'>Learn More</button>
       </div>
-      <div class='column'>
-        <h1>Luxury</h1><br>
+      <div class='column' id='luxury'>
+        <img src='./images/icon-luxury.svg' alt='Luxury Cars'>
+        <h1>Luxury</h1>
 
         <p>Cruise in the best car brands<br> without the bloated prices.<br> Enjoy the enhanced comfort<br> of a luxury 
         rental and arrive<br> in style.</p>
@@ -44,10 +45,11 @@
         <button type='button'>Learn More</button>
       </div>
     </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Spaceball55">Spaceball55</a>.
+    </div>
   </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  
 </body>
 </html>
