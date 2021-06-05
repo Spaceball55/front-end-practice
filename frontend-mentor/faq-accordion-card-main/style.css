@@ -1,0 +1,18 @@
+html, body{
+    height: 100%;
+    margin:0;
+    margin-top: 0;
+    background: linear-gradient(0deg,  hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+    z-index: -1
+}
+
+#container{
+    margin-left: 45%;
+    margin-right: 30%;
+    margin-top: 10%;
+    background-color: white;
+    z-index: 1;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
