@@ -34,7 +34,7 @@ body{
 
 #container .image{
     float: left;
-    margin-right: 3%;
+    margin-right: 5%;
     overflow: visible;
     background-image: url('images/bg-pattern-desktop.svg');
 }
@@ -42,7 +42,7 @@ body{
 #container .text{
     overflow:hidden;
     padding-bottom: 2em;
-    padding-right: 3em;
+    padding-right: 80px;
 }
 
 .text h1{
@@ -54,11 +54,16 @@ body{
 
 .section{
     padding-bottom: 8px;
+    font-weight: normal;
 }
 
 .section:hover{
     color: hsl(14, 88%, 65%);
     cursor:pointer;
+}
+
+.active{
+    font-weight: bold;
 }
 
 .section img{
