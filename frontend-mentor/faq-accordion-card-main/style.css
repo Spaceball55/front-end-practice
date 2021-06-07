@@ -6,11 +6,16 @@ html{
     z-index: -1
 }
 
+body{
+    height: 100%;
+}
+
 #container{
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 10%;
     padding-top: 2%;
+    padding-bottom: auto;
     background-color: white;
     z-index: 1;
     border-radius: 25px;
@@ -51,6 +56,11 @@ html{
     padding-bottom: 8px;
 }
 
+.section:hover{
+    color: hsl(14, 88%, 65%);
+    cursor:pointer;
+}
+
 .section img{
     display: inline;
     float: right;
@@ -61,5 +71,9 @@ html{
     cursor:pointer;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.panel{
+    display: none;
+}
+
+.attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
