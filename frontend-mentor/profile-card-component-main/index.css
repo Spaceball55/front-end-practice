@@ -25,14 +25,20 @@ body{
     margin-top: 0;
 }
 
-ul{
-    padding: 0 .5em 0 .5em;
+.column{
+    float: left;
+    width:33.33%;
 }
 
-li{
-    display: inline-block;
-    padding: 0 1.1em 0 1.1em;
-    text-align:center;
+.row{
+    text-align: center;
+    padding: 2vh 0;
+}
+
+.row::after{
+    content:"";
+    display:table;
+    clear:both;
 }
 
 
