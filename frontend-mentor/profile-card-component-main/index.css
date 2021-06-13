@@ -1,11 +1,18 @@
+html{
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
 body{
     margin:0;
+    overflow: hidden;
 }
 
 #container{
     margin: 25vh 12vw;
     border: black 1px solid;
     width: 75%;
+    background: white;
 }
 
 #content{
@@ -41,6 +48,19 @@ body{
     clear:both;
 }
 
+.top, .bottom{
+    position: absolute;
+}
+
+.top{
+    transform: translate(-70%, -55%);
+}
+
+.bottom{
+    bottom: 0;
+    right: 0;
+    transform: translate(70%, 75%);
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
