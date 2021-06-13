@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href='index.css'>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -14,32 +18,31 @@
   <img class="top" src="images/bg-pattern-top.svg" alt="top image">
   <img class="bottom" src="images/bg-pattern-bottom.svg" alt="bottom image">
   <div id = "container">
-
-    <!--Idea: maybe separate divs for top and bottom of bg?-->
-
+    <div id="card__top">
+      <div id="pfp">
+        <img class="profile_img" src="images/image-victor.jpg" alt="victor">
+      </div>
+    </div>
     
-    
-    <!---->
-    <div id="content">
-      <img src="images/image-victor.jpg" alt="victor">
-      <h3><span>Victor Crest</span> 26</h3>
-      
+    <div id="card-info">
+      <h3>Victor Crest <span>26</span></h3>
+        
       <p>London</p>
     </div>
     <hr>
     <section>
       <div class="row">
         <div class="column">
-          80K <br>
-          Followers
+          <p><span>80K</span><br>
+          Followers</p>
         </div>
         <div class="column">
-          803K <br>
-          Likes
+          <p><span>803K</span><br>
+          Likes</p>
         </div>
         <div class="column">
-          1.4K <br>
-          Photos
+          <p><span>1.4K</span> <br>
+          Photos</p>
         </div>
       </div>
     </section>
